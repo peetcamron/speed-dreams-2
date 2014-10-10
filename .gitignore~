@@ -1,0 +1,6 @@
+
+/build
+
+#I don't want to include data in my git hub. We must download it from the speed dreams repository.
+/data
+
