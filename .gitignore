@@ -6,3 +6,16 @@
 /data/data
 /data/drivers
 /data/tracks
+
+
+
+CMakeCache.txt
+CMakeFiles/
+GUI/
+Makefile
+cmake_install.cmake
+converters/
+tinyxml/
+ui_static-J.h
+unibatchconv
+/lib64
