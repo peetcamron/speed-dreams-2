@@ -1,0 +1,593 @@
+Scanning dependencies of target portability
+[  0%] Building CXX object src/libs/portability/CMakeFiles/portability.dir/portability.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libportability.so
+[  0%] Built target portability
+Scanning dependencies of target tgf
+[  1%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/application.cpp.o
+[  1%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/eventloop.cpp.o
+[  1%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/directory.cpp.o
+[  1%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/file.cpp.o
+[  2%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/filesetup.cpp.o
+[  2%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/formula.cpp.o
+[  2%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/hash.cpp.o
+[  3%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/module.cpp.o
+[  3%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/legacymodule.cpp.o
+[  3%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/modinfo.cpp.o
+[  4%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/os.cpp.o
+[  4%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/params.cpp.o
+[  4%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/profiler.cpp.o
+[  5%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/schedulespy.cpp.o
+[  5%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/tgf.cpp.o
+[  5%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/trace.cpp.o
+[  5%] Building CXX object src/libs/tgf/CMakeFiles/tgf.dir/linuxspec.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libtgf.so
+[  5%] Built target tgf
+Scanning dependencies of target xmlversion
+[  6%] Building CXX object src/tools/xmlversion/CMakeFiles/xmlversion.dir/main.cpp.o
+Linking CXX executable ../../../games/xmlversion
+[  6%] Built target xmlversion
+Scanning dependencies of target networking
+[  6%] Building CXX object src/modules/networking/CMakeFiles/networking.dir/network.cpp.o
+[  6%] Building CXX object src/modules/networking/CMakeFiles/networking.dir/server.cpp.o
+[  7%] Building CXX object src/modules/networking/CMakeFiles/networking.dir/client.cpp.o
+[  7%] Building CXX object src/modules/networking/CMakeFiles/networking.dir/robotxml.cpp.o
+[  7%] Building CXX object src/modules/networking/CMakeFiles/networking.dir/pack.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libnetworking.so
+[  7%] Built target networking
+Scanning dependencies of target tgfclient
+[  8%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/control.cpp.o
+[  8%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/glfeatures.cpp.o
+[  8%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guibutton.cpp.o
+[  9%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guifont.cpp.o
+[  9%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiimage.cpp.o
+[  9%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guimenu.cpp.o
+[ 10%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollbar.cpp.o
+[ 10%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guitexture.cpp.o
+[ 10%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/tgfclient.cpp.o
+[ 10%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/gui.cpp.o
+[ 11%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiedit.cpp.o
+[ 11%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guihelp.cpp.o
+[ 11%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guilabel.cpp.o
+[ 12%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiobject.cpp.o
+[ 12%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscrollist.cpp.o
+[ 12%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicombobox.cpp.o
+[ 13%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guicheckbox.cpp.o
+[ 13%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiprogresbar.cpp.o
+[ 13%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiscreen.cpp.o
+[ 14%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guieventloop.cpp.o
+[ 14%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/guiapplication.cpp.o
+[ 14%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/musicplayer.cpp.o
+[ 14%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/soundstream.cpp.o
+[ 15%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/oggsoundstream.cpp.o
+[ 15%] Building CXX object src/libs/tgfclient/CMakeFiles/tgfclient.dir/openalmusicplayer.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libtgfclient.so
+[ 15%] Built target tgfclient
+Scanning dependencies of target tgfdata
+[ 15%] Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/tgfdata.cpp.o
+[ 16%] Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/cars.cpp.o
+[ 16%] Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/tracks.cpp.o
+[ 16%] Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/racemanagers.cpp.o
+[ 17%] Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/race.cpp.o
+[ 17%] Building CXX object src/libs/tgfdata/CMakeFiles/tgfdata.dir/drivers.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libtgfdata.so
+[ 17%] Built target tgfdata
+Scanning dependencies of target robottools
+[ 17%] Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rtteammanager.cpp.o
+[ 17%] Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttelem.cpp.o
+[ 18%] Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttimeanalysis.cpp.o
+[ 18%] Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rttrack.cpp.o
+[ 18%] Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rtutil.cpp.o
+[ 19%] Building CXX object src/libs/robottools/CMakeFiles/robottools.dir/rthumandriver.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/librobottools.so
+[ 19%] Built target robottools
+Scanning dependencies of target kilo2008
+[ 19%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kilo2008.cpp.o
+[ 20%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/opponent.cpp.o
+[ 20%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/pit.cpp.o
+[ 20%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/strategy.cpp.o
+[ 21%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/cardata.cpp.o
+[ 21%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/spline.cpp.o
+[ 21%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/raceline.cpp.o
+[ 22%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/kdriver.cpp.o
+[ 22%] Building CXX object src/drivers/kilo2008/CMakeFiles/kilo2008.dir/util.cpp.o
+Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/kilo2008/kilo2008.so
+[ 22%] Built target kilo2008
+Scanning dependencies of target learning
+[ 22%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/ANN.cpp.o
+[ 23%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/Distribution.cpp.o
+[ 23%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/List.cpp.o
+[ 23%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/MathFunctions.cpp.o
+[ 23%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/ann_policy.cpp.o
+[ 24%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/policy.cpp.o
+[ 24%] Building CXX object src/libs/learning/CMakeFiles/learning.dir/string_utils.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/liblearning.so
+[ 24%] Built target learning
+Scanning dependencies of target ephemeris
+[ 24%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/celestialbody.cpp.o
+[ 24%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/ephemeris.cpp.o
+[ 24%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/jupiter.cpp.o
+[ 25%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/mars.cpp.o
+[ 25%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/mercury.cpp.o
+[ 25%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/moonpos.cpp.o
+[ 26%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/neptune.cpp.o
+[ 26%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/saturn.cpp.o
+[ 26%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/star.cpp.o
+[ 27%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/stardata.cpp.o
+[ 27%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/uranus.cpp.o
+[ 27%] Building CXX object src/libs/ephemeris/CMakeFiles/ephemeris.dir/venus.cpp.o
+Linking CXX shared library ../../../lib64/games/speed-dreams-2/lib/libephemeris.so
+[ 27%] Built target ephemeris
+Scanning dependencies of target networkhuman
+[ 28%] Building CXX object src/drivers/networkhuman/CMakeFiles/networkhuman.dir/networkhuman.cpp.o
+Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/networkhuman/networkhuman.so
+[ 28%] Built target networkhuman
+Scanning dependencies of target human
+[ 28%] Building CXX object src/drivers/human/CMakeFiles/human.dir/human.cpp.o
+Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/human/human.so
+[ 28%] Built target human
+Scanning dependencies of target usr
+[ 29%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/usr.cpp.o
+[ 29%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/cardata.cpp.o
+[ 29%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/driver.cpp.o
+[ 30%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/mod.cpp.o
+[ 30%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/opponent.cpp.o
+[ 30%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/pit.cpp.o
+[ 31%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/raceline.cpp.o
+[ 31%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/spline.cpp.o
+[ 31%] Building CXX object src/drivers/usr/CMakeFiles/usr.dir/src/strategy.cpp.o
+Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/usr/usr.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_trb1
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_trb1/usr_trb1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_sc
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_sc/usr_sc.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_ls1
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_ls1/usr_ls1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_ls2
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_ls2/usr_ls2.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_mpa1
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_mpa1/usr_mpa1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_36GP
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_36GP/usr_36GP.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_rs
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_rs/usr_rs.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_lp1
+Cloning usr.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr/usr.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/usr_lp1/usr_lp1.so
+[ 31%] Built target usr
+Scanning dependencies of target simplix
+[ 32%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcarparam.cpp.o
+[ 32%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcharacteristic.cpp.o
+[ 32%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitclothoid.cpp.o
+/home/peter/speed-dreams-2/src/drivers/simplix/src/unitclothoid.cpp: In member function ‘void TClothoidLane::ClearRacingline(const char*)’:
+/home/peter/speed-dreams-2/src/drivers/simplix/src/unitclothoid.cpp:832:8: warning: variable ‘error’ set but not used [-Wunused-but-set-variable]
+   bool error = false;
+        ^
+[ 32%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcollision.cpp.o
+[ 33%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommon.cpp.o
+[ 33%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcommondata.cpp.o
+[ 33%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubic.cpp.o
+[ 34%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitcubicspline.cpp.o
+[ 34%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitdriver.cpp.o
+/home/peter/speed-dreams-2/src/drivers/simplix/src/unitdriver.cpp: In member function ‘void TDriver::AvoidOtherCars(double, bool&, bool&)’:
+/home/peter/speed-dreams-2/src/drivers/simplix/src/unitdriver.cpp:3790:126: warning: '0' flag ignored with precision and ‘%d’ gnu_printf format [-Wformat=]
+  sprintf(buf2,"%s %04.4d R:%.2f O:%.2f TS:%.2f CS:%.2f",buf,SecIndex,oAvoidRange,oAvoidOffset,oTargetSpeed*3.6,oCurrSpeed*3.6);
+                                                                                                                              ^
+[ 34%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitfixcarparam.cpp.o
+[ 35%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlane.cpp.o
+[ 35%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlanepoint.cpp.o
+[ 35%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinalg.cpp.o
+[ 36%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitlinreg.cpp.o
+[ 36%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitmain.cpp.o
+[ 36%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitopponent.cpp.o
+[ 36%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparabel.cpp.o
+[ 37%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitparam.cpp.o
+[ 37%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpidctrl.cpp.o
+[ 37%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpit.cpp.o
+[ 38%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitpitparam.cpp.o
+[ 38%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsection.cpp.o
+[ 38%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitstrategy.cpp.o
+[ 39%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitsysfoo.cpp.o
+[ 39%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unittmpcarparam.cpp.o
+[ 39%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unittrack.cpp.o
+[ 39%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec2d.cpp.o
+[ 40%] Building CXX object src/drivers/simplix/CMakeFiles/simplix.dir/src/unitvec3d.cpp.o
+Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/simplix/simplix.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_36GP
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_36GP/simplix_36GP.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_sc
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_sc/simplix_sc.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_trb1
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_trb1/simplix_trb1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_ls1
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_ls1/simplix_ls1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_ls2
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_ls2/simplix_ls2.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_mp5
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_mp5/simplix_mp5.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_mpa1
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_mpa1/simplix_mpa1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_lp1
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_lp1/simplix_lp1.so
+Creating directory /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_ref
+Cloning simplix.so=/home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix/simplix.so into /home/peter/speed-dreams-2/lib64/games/speed-dreams-2/drivers/simplix_ref/simplix_ref.so
+[ 40%] Built target simplix
+Scanning dependencies of target replay
+[ 41%] Building CXX object src/drivers/replay/CMakeFiles/replay.dir/replay.cpp.o
+Linking CXX shared module ../../../lib64/games/speed-dreams-2/drivers/replay/replay.so
+[ 41%] Built target replay
+Scanning dependencies of target ssggraph
+[ 41%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoonpos.cpp.o
+[ 42%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grMoon.cpp.o
+[ 42%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSun.cpp.o
+[ 42%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grCloudLayer.cpp.o
+[ 43%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSky.cpp.o
+[ 43%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSkyDome.cpp.o
+[ 43%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grSphere.cpp.o
+[ 44%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grStars.cpp.o
+[ 44%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grboard.cpp.o
+[ 44%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcam.cpp.o
+[ 45%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcar.cpp.o
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcar.cpp:26:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grshadow.h:48:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcar.cpp:28:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grsmoke.h:98:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcar.cpp:33:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcarlight.h:72:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+[ 45%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grcarlight.cpp.o
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcarlight.cpp:25:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcarlight.h:72:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+[ 45%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmain.cpp.o
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grmain.cpp:32:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grshadow.h:48:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grmain.cpp:34:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grsmoke.h:98:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grmain.cpp:40:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grcarlight.h:72:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+[ 45%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsimplestate.cpp.o
+[ 46%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grmultitexstate.cpp.o
+[ 46%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grloadac.cpp.o
+[ 46%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscene.cpp.o
+[ 47%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grbackground.cpp.o
+[ 47%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grscreen.cpp.o
+[ 47%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grshadow.cpp.o
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grshadow.cpp:20:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grshadow.h:48:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+[ 48%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grskidmarks.cpp.o
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grskidmarks.cpp:25:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grshadow.h:48:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+[ 48%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grsmoke.cpp.o
+In file included from /home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grsmoke.cpp:23:0:
+/home/peter/speed-dreams-2/src/modules/graphic/ssggraph/grsmoke.h:98:58: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   virtual void print ( FILE *fd = stderr, char *indent = "", int how_much = 2) { ssgVtxTable::print(fd,indent,how_much);}
+                                                          ^
+[ 48%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtexture.cpp.o
+[ 49%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtracklight.cpp.o
+[ 49%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grtrackmap.cpp.o
+[ 49%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grutil.cpp.o
+[ 49%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grvtxtable.cpp.o
+[ 50%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/grrain.cpp.o
+[ 50%] Building CXX object src/modules/graphic/ssggraph/CMakeFiles/ssggraph.dir/ssggraph.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/graphic/ssggraph.so
+[ 50%] Built target ssggraph
+Scanning dependencies of target snddefault
+[ 51%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/snddefault.cpp.o
+[ 51%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/CarSoundData.cpp.o
+[ 51%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/Sound.cpp.o
+[ 51%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSound.cpp.o
+[ 52%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSound.cpp.o
+[ 52%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/SoundInterface.cpp.o
+[ 52%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/PlibSoundInterface.cpp.o
+[ 53%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/OpenalSoundInterface.cpp.o
+[ 53%] Building CXX object src/modules/sound/snddefault/CMakeFiles/snddefault.dir/grsound.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/sound/snddefault.so
+[ 53%] Built target snddefault
+Scanning dependencies of target solid
+[ 53%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Transform.cpp.o
+[ 54%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Convex.cpp.o
+[ 54%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Box.cpp.o
+[ 54%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Cone.cpp.o
+[ 54%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Cylinder.cpp.o
+[ 55%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Sphere.cpp.o
+[ 55%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Simplex.cpp.o
+[ 55%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Polygon.cpp.o
+[ 56%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Polyhedron.cpp.o
+[ 56%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Complex.cpp.o
+[ 56%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/BBoxTree.cpp.o
+[ 57%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Endpoint.cpp.o
+[ 57%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Object.cpp.o
+[ 57%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/Response.cpp.o
+[ 58%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/RespTable.cpp.o
+[ 58%] Building CXX object src/modules/simu/simuv2.1/SOLID-2.0/src/CMakeFiles/solid.dir/C-api.cpp.o
+Linking CXX static library libsolid.a
+[ 58%] Built target solid
+Scanning dependencies of target simuv2.1
+[ 58%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/aero.cpp.o
+[ 59%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/axle.cpp.o
+[ 59%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/brake.cpp.o
+[ 59%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/car.cpp.o
+[ 60%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/categories.cpp.o
+[ 60%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/collide.cpp.o
+[ 60%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/differential.cpp.o
+[ 61%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/engine.cpp.o
+[ 61%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/simu.cpp.o
+[ 61%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/steer.cpp.o
+[ 61%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/susp.cpp.o
+[ 62%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/transmission.cpp.o
+[ 62%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/wheel.cpp.o
+[ 62%] Building CXX object src/modules/simu/simuv2.1/CMakeFiles/simuv2.1.dir/simuv21.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/simu/simuv2.1.so
+[ 62%] Built target simuv2.1
+Scanning dependencies of target trackv1
+[ 62%] Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/track.cpp.o
+[ 63%] Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/track3.cpp.o
+[ 63%] Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/track4.cpp.o
+[ 63%] Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackitf.cpp.o
+[ 63%] Building CXX object src/modules/track/trackv1/CMakeFiles/trackv1.dir/trackutil.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/track/trackv1.so
+[ 63%] Built target trackv1
+Scanning dependencies of target legacymenu
+[ 63%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/splash.cpp.o
+[ 64%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/mainmenu.cpp.o
+[ 64%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/optionsmenu.cpp.o
+[ 64%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/creditsmenu.cpp.o
+[ 65%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/mainscreens/exitmenu.cpp.o
+[ 65%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/playerconfig.cpp.o
+[ 65%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/controlconfig.cpp.o
+[ 65%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joystickconfig.cpp.o
+[ 66%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/mouseconfig.cpp.o
+[ 66%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/joy2butconfig.cpp.o
+[ 66%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/displayconfig.cpp.o
+[ 67%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/graphconfig.cpp.o
+[ 67%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/openglconfig.cpp.o
+[ 67%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/monitorconfig.cpp.o
+[ 68%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/advancedgraphconfig.cpp.o
+[ 68%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/simuconfig.cpp.o
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp: In function ‘void loadSimuCfg()’:
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp:79:14: warning: unused variable ‘replayRateSchemeName’ [-Wunused-variable]
+  const char *replayRateSchemeName;
+              ^
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp: At global scope:
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp:213:1: warning: ‘void onChangeReplayRateScheme(void*)’ defined but not used [-Wunused-function]
+ onChangeReplayRateScheme(void *vp)
+ ^
+[ 68%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/soundconfig.cpp.o
+[ 69%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/aiconfig.cpp.o
+[ 69%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/carsettingsmenu.cpp.o
+[ 69%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/confscreens/hostsettingsmenu.cpp.o
+[ 69%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceselectmenu.cpp.o
+[ 70%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racemanmenu.cpp.o
+[ 70%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/fileselect.cpp.o
+[ 70%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/networkingmenu.cpp.o
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp: In function ‘void OnActivateNetworkClient(void*)’:
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp:685:13: warning: unused variable ‘reInfo’ [-Wunused-variable]
+    tRmInfo* reInfo = LmRaceEngine().inData();
+             ^
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp: In function ‘void rmCarSettingsMenu(void*)’:
+/home/peter/speed-dreams-2/src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp:734:8: warning: unused variable ‘newName’ [-Wunused-variable]
+   char newName[64];
+        ^
+[ 71%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceconfigstate.cpp.o
+[ 71%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/trackselect.cpp.o
+[ 71%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/driverselect.cpp.o
+[ 72%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/garagemenu.cpp.o
+[ 72%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceparamsmenu.cpp.o
+[ 72%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceloadingmenu.cpp.o
+[ 73%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racerunningmenus.cpp.o
+[ 73%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestopmenu.cpp.o
+[ 73%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racestartmenu.cpp.o
+[ 73%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racepitmenu.cpp.o
+[ 74%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/raceresultsmenus.cpp.o
+[ 74%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/racescreens/racenexteventmenu.cpp.o
+[ 74%] Building CXX object src/modules/userinterface/legacymenu/CMakeFiles/legacymenu.dir/legacymenu.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/userinterface/legacymenu.so
+[ 74%] Built target legacymenu
+Scanning dependencies of target simuv4
+[ 74%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/aero.cpp.o
+[ 75%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/axle.cpp.o
+[ 75%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/brake.cpp.o
+[ 75%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/car.cpp.o
+[ 75%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/categories.cpp.o
+[ 76%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/collide.cpp.o
+[ 76%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/differential.cpp.o
+[ 76%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/engine.cpp.o
+[ 77%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/simu.cpp.o
+[ 77%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/steer.cpp.o
+[ 77%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/susp.cpp.o
+[ 78%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/transmission.cpp.o
+[ 78%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/wheel.cpp.o
+[ 78%] Building CXX object src/modules/simu/simuv4/CMakeFiles/simuv4.dir/simuv4.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/simu/simuv4.so
+[ 78%] Built target simuv4
+Scanning dependencies of target simuv2
+[ 78%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/aero.cpp.o
+[ 78%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/axle.cpp.o
+[ 79%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/brake.cpp.o
+[ 79%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/car.cpp.o
+[ 79%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/categories.cpp.o
+[ 80%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/collide.cpp.o
+[ 80%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/differential.cpp.o
+[ 80%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/engine.cpp.o
+[ 81%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/simu.cpp.o
+[ 81%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/steer.cpp.o
+[ 81%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/susp.cpp.o
+[ 81%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/transmission.cpp.o
+[ 82%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/wheel.cpp.o
+[ 82%] Building CXX object src/modules/simu/simuv2/CMakeFiles/simuv2.dir/simuv20.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/simu/simuv2.so
+[ 82%] Built target simuv2
+Scanning dependencies of target simuv3
+[ 83%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/SimulationOptions.cpp.o
+[ 83%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/aero.cpp.o
+[ 83%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/axle.cpp.o
+[ 84%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/brake.cpp.o
+[ 84%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/car.cpp.o
+[ 84%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/categories.cpp.o
+[ 84%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/collide.cpp.o
+[ 85%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/differential.cpp.o
+[ 85%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/engine.cpp.o
+[ 85%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/simu.cpp.o
+[ 86%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/steer.cpp.o
+[ 86%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/susp.cpp.o
+[ 86%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/transmission.cpp.o
+[ 87%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/wheel.cpp.o
+[ 87%] Building CXX object src/modules/simu/simuv3/CMakeFiles/simuv3.dir/simuv30.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/simu/simuv3.so
+[ 87%] Built target simuv3
+Scanning dependencies of target genparoptv1
+[ 87%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/genparoptv1.cpp.o
+[ 88%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/raceupdate.cpp.o
+[ 88%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/racecars.cpp.o
+[ 88%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/raceinit.cpp.o
+[ 89%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/racemain.cpp.o
+[ 89%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/racetrack.cpp.o
+[ 89%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/raceresults.cpp.o
+[ 90%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/racestate.cpp.o
+[ 90%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/racesituation.cpp.o
+[ 90%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/racemessage.cpp.o
+[ 91%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/raceutil.cpp.o
+[ 91%] Building CXX object src/modules/racing/genparoptv1/CMakeFiles/genparoptv1.dir/genetic.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/racing/genparoptv1.so
+[ 91%] Built target genparoptv1
+Scanning dependencies of target standardgame
+[ 91%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/standardgame.cpp.o
+[ 92%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecareer.cpp.o
+[ 92%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceupdate.cpp.o
+[ 92%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racenetwork.cpp.o
+[ 93%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racecars.cpp.o
+[ 93%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceinit.cpp.o
+/home/peter/speed-dreams-2/src/modules/racing/standardgame/raceinit.cpp: In function ‘int ReInitCars()’:
+/home/peter/speed-dreams-2/src/modules/racing/standardgame/raceinit.cpp:855:9: warning: unused variable ‘result’ [-Wunused-variable]
+     int result;
+         ^
+[ 93%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemain.cpp.o
+[ 93%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racetrack.cpp.o
+[ 94%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceresults.cpp.o
+[ 94%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesimusimu.cpp.o
+[ 94%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racestate.cpp.o
+[ 95%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racesituation.cpp.o
+[ 95%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/racemessage.cpp.o
+[ 95%] Building CXX object src/modules/racing/standardgame/CMakeFiles/standardgame.dir/raceutil.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/racing/standardgame.so
+[ 95%] Built target standardgame
+Scanning dependencies of target textonly
+[ 95%] Building CXX object src/modules/userinterface/textonly/CMakeFiles/textonly.dir/textonly.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/userinterface/textonly.so
+[ 95%] Built target textonly
+Scanning dependencies of target sd2-accc
+[ 95%] Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dgroup.cpp.o
+[ 95%] Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/ac3dload.cpp.o
+[ 96%] Building CXX object src/tools/accc/CMakeFiles/sd2-accc.dir/mainaccc.cpp.o
+Linking CXX executable ../../../games/sd2-accc
+[ 96%] Built target sd2-accc
+Scanning dependencies of target telemetryv1
+[ 97%] Building CXX object src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetryitf.cpp.o
+[ 97%] Building CXX object src/modules/telemetry/telemetryv1/CMakeFiles/telemetryv1.dir/telemetry.cpp.o
+Linking CXX shared module ../../../../lib64/games/speed-dreams-2/modules/telemetry/telemetryv1.so
+[ 97%] Built target telemetryv1
+Scanning dependencies of target sd2-menuview
+[ 97%] Building CXX object src/tools/menuview/CMakeFiles/sd2-menuview.dir/main.cpp.o
+[ 97%] Building CXX object src/tools/menuview/CMakeFiles/sd2-menuview.dir/previewmenu.cpp.o
+Linking CXX executable ../../../games/sd2-menuview
+[ 97%] Built target sd2-menuview
+Scanning dependencies of target speed-dreams-2
+[ 97%] Building CXX object src/main/CMakeFiles/speed-dreams-2.dir/main.cpp.o
+Linking CXX executable ../../games/speed-dreams-2
+[ 97%] Built target speed-dreams-2
+Scanning dependencies of target sd2-trackgen
+[ 97%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/ac3d.cpp.o
+[ 97%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/easymesh.cpp.o
+[ 98%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/elevation.cpp.o
+[ 98%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/main.cpp.o
+[ 98%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/objects.cpp.o
+[ 99%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/relief.cpp.o
+[ 99%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/track.cpp.o
+[ 99%] Building CXX object src/tools/trackgen/CMakeFiles/sd2-trackgen.dir/util.cpp.o
+Linking CXX executable ../../../games/sd2-trackgen
+[ 99%] Built target sd2-trackgen
+Scanning dependencies of target sd2-nfsperf
+[100%] Building CXX object src/tools/nfsperf/CMakeFiles/sd2-nfsperf.dir/mainnfsperf.cpp.o
+Linking CXX executable ../../../games/sd2-nfsperf
+[100%] Built target sd2-nfsperf
+Scanning dependencies of target sd2-nfs2ac
+[100%] Building CXX object src/tools/nfs2ac/CMakeFiles/sd2-nfs2ac.dir/mainnfs2ac.cpp.o
+Linking CXX executable ../../../games/sd2-nfs2ac
+[100%] Built target sd2-nfs2ac
+Scanning dependencies of target settings_versions
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/logging.xml config/logging.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/logging.xml (version 1.6)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceengine.xml config/raceengine.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceengine.xml (version 1.8)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/screen.xml config/screen.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/screen.xml (version 1.18)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/graph.xml config/graph.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/graph.xml (version 1.14)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/sound.xml config/sound.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/sound.xml (version 1.1)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/practice.xml config/raceman/practice.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/practice.xml (version 1.6)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/quickrace.xml config/raceman/quickrace.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/quickrace.xml (version 1.22)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/singleevent-36gp.xml config/raceman/singleevent-36gp.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/singleevent-36gp.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/singleevent-challenge.xml config/raceman/singleevent-challenge.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/singleevent-challenge.xml (version 1.8)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/singleevent-endurance.xml config/raceman/singleevent-endurance.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/singleevent-endurance.xml (version 1.20)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/singleevent-ls-gt1.xml config/raceman/singleevent-ls-gt1.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/singleevent-ls-gt1.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/singleevent-mp5.xml config/raceman/singleevent-mp5.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/singleevent-mp5.xml (version 1.3)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship.xml config/raceman/championship.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship.xml (version 1.6)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship-supercars.xml config/raceman/championship-supercars.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship-supercars.xml (version 1.9)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship-trb1.xml config/raceman/championship-trb1.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship-trb1.xml (version 1.1)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship-36gp.xml config/raceman/championship-36gp.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship-36gp.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship-ls-gt1.xml config/raceman/championship-ls-gt1.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship-ls-gt1.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship-mp5.xml config/raceman/championship-mp5.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship-mp5.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/networkrace.xml config/raceman/networkrace.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/networkrace.xml (version 1.21)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/championship-mpa1.xml config/raceman/championship-mpa1.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/championship-mpa1.xml (version 2.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/career.xml config/raceman/career.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/career.xml (version 1.8)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/career_supercars.xmls config/raceman/career_supercars.xmls /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/career_supercars.xmls (version 1.5)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/career_ls1.xmls config/raceman/career_ls1.xmls /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/career_ls1.xmls (version 1.7)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml config/raceman/extra/skill.xml config/raceman/extra/skill.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for config/raceman/extra/skill.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml drivers/human/human.xml drivers/human/human.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for drivers/human/human.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml drivers/human/preferences.xml drivers/human/preferences.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for drivers/human/preferences.xml (version 1.3)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml drivers/human/car.xml drivers/human/car.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for drivers/human/car.xml (version 1.3)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml drivers/networkhuman/networkhuman.xml drivers/networkhuman/networkhuman.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for drivers/networkhuman/networkhuman.xml (version 1.0)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml drivers/networkhuman/preferences.xml drivers/networkhuman/preferences.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for drivers/networkhuman/preferences.xml (version 1.3)
+/home/peter/speed-dreams-2/games/xmlversion /home/peter/speed-dreams-2/games/version.xml drivers/networkhuman/car.xml drivers/networkhuman/car.xml /home/peter/speed-dreams-2/data
+xmlversion: Updated /home/peter/speed-dreams-2/games/version.xml for drivers/networkhuman/car.xml (version 0.0)
+[100%] Built target settings_versions

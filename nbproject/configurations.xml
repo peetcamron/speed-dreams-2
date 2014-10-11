@@ -1,0 +1,2955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="drivers">
+          <df name="human">
+            <in>human.cpp</in>
+          </df>
+          <df name="kilo2008">
+            <in>cardata.cpp</in>
+            <in>kdriver.cpp</in>
+            <in>kilo2008.cpp</in>
+            <in>opponent.cpp</in>
+            <in>pit.cpp</in>
+            <in>raceline.cpp</in>
+            <in>spline.cpp</in>
+            <in>strategy.cpp</in>
+            <in>util.cpp</in>
+          </df>
+          <df name="networkhuman">
+            <in>networkhuman.cpp</in>
+          </df>
+          <df name="replay">
+            <in>replay.cpp</in>
+          </df>
+          <df name="simplix">
+            <df name="src">
+              <in>unitcarparam.cpp</in>
+              <in>unitcharacteristic.cpp</in>
+              <in>unitclothoid.cpp</in>
+              <in>unitcollision.cpp</in>
+              <in>unitcommon.cpp</in>
+              <in>unitcommondata.cpp</in>
+              <in>unitcubic.cpp</in>
+              <in>unitcubicspline.cpp</in>
+              <in>unitdriver.cpp</in>
+              <in>unitfixcarparam.cpp</in>
+              <in>unitlane.cpp</in>
+              <in>unitlanepoint.cpp</in>
+              <in>unitlinalg.cpp</in>
+              <in>unitlinreg.cpp</in>
+              <in>unitmain.cpp</in>
+              <in>unitopponent.cpp</in>
+              <in>unitparabel.cpp</in>
+              <in>unitparam.cpp</in>
+              <in>unitpidctrl.cpp</in>
+              <in>unitpit.cpp</in>
+              <in>unitpitparam.cpp</in>
+              <in>unitsection.cpp</in>
+              <in>unitstrategy.cpp</in>
+              <in>unitsysfoo.cpp</in>
+              <in>unittmpcarparam.cpp</in>
+              <in>unittrack.cpp</in>
+              <in>unitvec2d.cpp</in>
+              <in>unitvec3d.cpp</in>
+            </df>
+          </df>
+          <df name="usr">
+            <df name="src">
+              <in>cardata.cpp</in>
+              <in>driver.cpp</in>
+              <in>mod.cpp</in>
+              <in>opponent.cpp</in>
+              <in>pit.cpp</in>
+              <in>raceline.cpp</in>
+              <in>spline.cpp</in>
+              <in>strategy.cpp</in>
+              <in>usr.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="libs">
+          <df name="ephemeris">
+            <in>celestialbody.cpp</in>
+            <in>ephemeris.cpp</in>
+            <in>jupiter.cpp</in>
+            <in>mars.cpp</in>
+            <in>mercury.cpp</in>
+            <in>moonpos.cpp</in>
+            <in>neptune.cpp</in>
+            <in>saturn.cpp</in>
+            <in>star.cpp</in>
+            <in>stardata.cpp</in>
+            <in>uranus.cpp</in>
+            <in>venus.cpp</in>
+          </df>
+          <df name="learning">
+            <in>ANN.cpp</in>
+            <in>Distribution.cpp</in>
+            <in>List.cpp</in>
+            <in>MathFunctions.cpp</in>
+            <in>ann_policy.cpp</in>
+            <in>policy.cpp</in>
+            <in>string_utils.cpp</in>
+          </df>
+          <df name="portability">
+            <in>portability.cpp</in>
+          </df>
+          <df name="robottools">
+            <in>rthumandriver.cpp</in>
+            <in>rtteammanager.cpp</in>
+            <in>rttelem.cpp</in>
+            <in>rttimeanalysis.cpp</in>
+            <in>rttrack.cpp</in>
+            <in>rtutil.cpp</in>
+          </df>
+          <df name="tgf">
+            <in>application.cpp</in>
+            <in>directory.cpp</in>
+            <in>eventloop.cpp</in>
+            <in>file.cpp</in>
+            <in>filesetup.cpp</in>
+            <in>formula.cpp</in>
+            <in>hash.cpp</in>
+            <in>legacymodule.cpp</in>
+            <in>linuxspec.cpp</in>
+            <in>modinfo.cpp</in>
+            <in>module.cpp</in>
+            <in>os.cpp</in>
+            <in>params.cpp</in>
+            <in>profiler.cpp</in>
+            <in>schedulespy.cpp</in>
+            <in>tgf.cpp</in>
+            <in>trace.cpp</in>
+          </df>
+          <df name="tgfclient">
+            <in>control.cpp</in>
+            <in>glfeatures.cpp</in>
+            <in>gui.cpp</in>
+            <in>guiapplication.cpp</in>
+            <in>guibutton.cpp</in>
+            <in>guicheckbox.cpp</in>
+            <in>guicombobox.cpp</in>
+            <in>guiedit.cpp</in>
+            <in>guieventloop.cpp</in>
+            <in>guifont.cpp</in>
+            <in>guihelp.cpp</in>
+            <in>guiimage.cpp</in>
+            <in>guilabel.cpp</in>
+            <in>guimenu.cpp</in>
+            <in>guiobject.cpp</in>
+            <in>guiprogresbar.cpp</in>
+            <in>guiscreen.cpp</in>
+            <in>guiscrollbar.cpp</in>
+            <in>guiscrollist.cpp</in>
+            <in>guitexture.cpp</in>
+            <in>musicplayer.cpp</in>
+            <in>oggsoundstream.cpp</in>
+            <in>openalmusicplayer.cpp</in>
+            <in>soundstream.cpp</in>
+            <in>tgfclient.cpp</in>
+          </df>
+          <df name="tgfdata">
+            <in>cars.cpp</in>
+            <in>drivers.cpp</in>
+            <in>race.cpp</in>
+            <in>racemanagers.cpp</in>
+            <in>tgfdata.cpp</in>
+            <in>tracks.cpp</in>
+          </df>
+        </df>
+        <df name="main">
+          <in>main.cpp</in>
+        </df>
+        <df name="modules">
+          <df name="graphic">
+            <df name="ssggraph">
+              <in>grCloudLayer.cpp</in>
+              <in>grMoon.cpp</in>
+              <in>grMoonpos.cpp</in>
+              <in>grSky.cpp</in>
+              <in>grSkyDome.cpp</in>
+              <in>grSphere.cpp</in>
+              <in>grStars.cpp</in>
+              <in>grSun.cpp</in>
+              <in>grbackground.cpp</in>
+              <in>grboard.cpp</in>
+              <in>grcam.cpp</in>
+              <in>grcar.cpp</in>
+              <in>grcarlight.cpp</in>
+              <in>grloadac.cpp</in>
+              <in>grmain.cpp</in>
+              <in>grmultitexstate.cpp</in>
+              <in>grrain.cpp</in>
+              <in>grscene.cpp</in>
+              <in>grscreen.cpp</in>
+              <in>grshadow.cpp</in>
+              <in>grsimplestate.cpp</in>
+              <in>grskidmarks.cpp</in>
+              <in>grsmoke.cpp</in>
+              <in>grtexture.cpp</in>
+              <in>grtracklight.cpp</in>
+              <in>grtrackmap.cpp</in>
+              <in>grutil.cpp</in>
+              <in>grvtxtable.cpp</in>
+              <in>ssggraph.cpp</in>
+            </df>
+          </df>
+          <df name="networking">
+            <in>client.cpp</in>
+            <in>network.cpp</in>
+            <in>pack.cpp</in>
+            <in>robotxml.cpp</in>
+            <in>server.cpp</in>
+          </df>
+          <df name="racing">
+            <df name="genparoptv1">
+              <in>genetic.cpp</in>
+              <in>genparoptv1.cpp</in>
+              <in>racecars.cpp</in>
+              <in>raceinit.cpp</in>
+              <in>racemain.cpp</in>
+              <in>racemessage.cpp</in>
+              <in>raceresults.cpp</in>
+              <in>racesituation.cpp</in>
+              <in>racestate.cpp</in>
+              <in>racetrack.cpp</in>
+              <in>raceupdate.cpp</in>
+              <in>raceutil.cpp</in>
+            </df>
+            <df name="standardgame">
+              <in>racecareer.cpp</in>
+              <in>racecars.cpp</in>
+              <in>raceinit.cpp</in>
+              <in>racemain.cpp</in>
+              <in>racemessage.cpp</in>
+              <in>racenetwork.cpp</in>
+              <in>raceresults.cpp</in>
+              <in>racesimusimu.cpp</in>
+              <in>racesituation.cpp</in>
+              <in>racestate.cpp</in>
+              <in>racetrack.cpp</in>
+              <in>raceupdate.cpp</in>
+              <in>raceutil.cpp</in>
+              <in>standardgame.cpp</in>
+            </df>
+          </df>
+          <df name="simu">
+            <df name="simuv2">
+              <in>aero.cpp</in>
+              <in>axle.cpp</in>
+              <in>brake.cpp</in>
+              <in>car.cpp</in>
+              <in>categories.cpp</in>
+              <in>collide.cpp</in>
+              <in>differential.cpp</in>
+              <in>engine.cpp</in>
+              <in>simu.cpp</in>
+              <in>simuv20.cpp</in>
+              <in>steer.cpp</in>
+              <in>susp.cpp</in>
+              <in>transmission.cpp</in>
+              <in>wheel.cpp</in>
+            </df>
+            <df name="simuv2.1">
+              <df name="SOLID-2.0">
+                <df name="src">
+                  <in>BBoxTree.cpp</in>
+                  <in>Box.cpp</in>
+                  <in>C-api.cpp</in>
+                  <in>Complex.cpp</in>
+                  <in>Cone.cpp</in>
+                  <in>Convex.cpp</in>
+                  <in>Cylinder.cpp</in>
+                  <in>Endpoint.cpp</in>
+                  <in>Object.cpp</in>
+                  <in>Polygon.cpp</in>
+                  <in>Polyhedron.cpp</in>
+                  <in>RespTable.cpp</in>
+                  <in>Response.cpp</in>
+                  <in>Simplex.cpp</in>
+                  <in>Sphere.cpp</in>
+                  <in>Transform.cpp</in>
+                </df>
+              </df>
+              <in>aero.cpp</in>
+              <in>axle.cpp</in>
+              <in>brake.cpp</in>
+              <in>car.cpp</in>
+              <in>categories.cpp</in>
+              <in>collide.cpp</in>
+              <in>differential.cpp</in>
+              <in>engine.cpp</in>
+              <in>simu.cpp</in>
+              <in>simuv21.cpp</in>
+              <in>steer.cpp</in>
+              <in>susp.cpp</in>
+              <in>transmission.cpp</in>
+              <in>wheel.cpp</in>
+            </df>
+            <df name="simuv3">
+              <in>SimulationOptions.cpp</in>
+              <in>aero.cpp</in>
+              <in>axle.cpp</in>
+              <in>brake.cpp</in>
+              <in>car.cpp</in>
+              <in>categories.cpp</in>
+              <in>collide.cpp</in>
+              <in>differential.cpp</in>
+              <in>engine.cpp</in>
+              <in>simu.cpp</in>
+              <in>simuv30.cpp</in>
+              <in>steer.cpp</in>
+              <in>susp.cpp</in>
+              <in>transmission.cpp</in>
+              <in>wheel.cpp</in>
+            </df>
+            <df name="simuv4">
+              <in>aero.cpp</in>
+              <in>axle.cpp</in>
+              <in>brake.cpp</in>
+              <in>car.cpp</in>
+              <in>categories.cpp</in>
+              <in>collide.cpp</in>
+              <in>differential.cpp</in>
+              <in>engine.cpp</in>
+              <in>simu.cpp</in>
+              <in>simuv4.cpp</in>
+              <in>steer.cpp</in>
+              <in>susp.cpp</in>
+              <in>transmission.cpp</in>
+              <in>wheel.cpp</in>
+            </df>
+          </df>
+          <df name="sound">
+            <df name="snddefault">
+              <in>CarSoundData.cpp</in>
+              <in>OpenalSound.cpp</in>
+              <in>OpenalSoundInterface.cpp</in>
+              <in>PlibSound.cpp</in>
+              <in>PlibSoundInterface.cpp</in>
+              <in>Sound.cpp</in>
+              <in>SoundInterface.cpp</in>
+              <in>grsound.cpp</in>
+              <in>snddefault.cpp</in>
+            </df>
+          </df>
+          <df name="telemetry">
+            <df name="telemetryv1">
+              <in>telemetry.cpp</in>
+              <in>telemetryitf.cpp</in>
+            </df>
+          </df>
+          <df name="track">
+            <df name="trackv1">
+              <in>track.cpp</in>
+              <in>track3.cpp</in>
+              <in>track4.cpp</in>
+              <in>trackitf.cpp</in>
+              <in>trackutil.cpp</in>
+            </df>
+          </df>
+          <df name="userinterface">
+            <df name="legacymenu">
+              <df name="confscreens">
+                <in>advancedgraphconfig.cpp</in>
+                <in>aiconfig.cpp</in>
+                <in>carsettingsmenu.cpp</in>
+                <in>controlconfig.cpp</in>
+                <in>displayconfig.cpp</in>
+                <in>graphconfig.cpp</in>
+                <in>hostsettingsmenu.cpp</in>
+                <in>joy2butconfig.cpp</in>
+                <in>joystickconfig.cpp</in>
+                <in>monitorconfig.cpp</in>
+                <in>mouseconfig.cpp</in>
+                <in>openglconfig.cpp</in>
+                <in>playerconfig.cpp</in>
+                <in>simuconfig.cpp</in>
+                <in>soundconfig.cpp</in>
+              </df>
+              <df name="mainscreens">
+                <in>creditsmenu.cpp</in>
+                <in>exitmenu.cpp</in>
+                <in>mainmenu.cpp</in>
+                <in>optionsmenu.cpp</in>
+                <in>splash.cpp</in>
+              </df>
+              <df name="racescreens">
+                <in>driverselect.cpp</in>
+                <in>fileselect.cpp</in>
+                <in>garagemenu.cpp</in>
+                <in>networkingmenu.cpp</in>
+                <in>raceconfigstate.cpp</in>
+                <in>raceloadingmenu.cpp</in>
+                <in>racemanmenu.cpp</in>
+                <in>racenexteventmenu.cpp</in>
+                <in>raceparamsmenu.cpp</in>
+                <in>racepitmenu.cpp</in>
+                <in>raceresultsmenus.cpp</in>
+                <in>racerunningmenus.cpp</in>
+                <in>raceselectmenu.cpp</in>
+                <in>racestartmenu.cpp</in>
+                <in>racestopmenu.cpp</in>
+                <in>trackselect.cpp</in>
+              </df>
+              <in>legacymenu.cpp</in>
+            </df>
+            <df name="textonly">
+              <in>textonly.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="tools">
+          <df name="accc">
+            <in>ac3dgroup.cpp</in>
+            <in>ac3dload.cpp</in>
+            <in>mainaccc.cpp</in>
+          </df>
+          <df name="menuview">
+            <in>main.cpp</in>
+            <in>previewmenu.cpp</in>
+          </df>
+          <df name="nfs2ac">
+            <in>mainnfs2ac.cpp</in>
+          </df>
+          <df name="nfsperf">
+            <in>mainnfsperf.cpp</in>
+          </df>
+          <df name="trackgen">
+            <in>ac3d.cpp</in>
+            <in>easymesh.cpp</in>
+            <in>elevation.cpp</in>
+            <in>main.cpp</in>
+            <in>objects.cpp</in>
+            <in>relief.cpp</in>
+            <in>track.cpp</in>
+            <in>util.cpp</in>
+          </df>
+          <df name="xmlversion">
+            <in>main.cpp</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <preprocessorList>
+              <Elem>GL_GLEXT_PROTOTYPES</Elem>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>SHM</Elem>
+              <Elem>SPEED_DREAMS</Elem>
+              <Elem>THIRD_PARTY_EXPAT</Elem>
+              <Elem>TRACE_LEVEL=5</Elem>
+              <Elem>TRACE_OUT</Elem>
+              <Elem>UNLOAD_SSGGRAPH</Elem>
+              <Elem>USE_RANDR_EXT</Elem>
+              <Elem>_BSD_SOURCE</Elem>
+              <Elem>_SVID_SOURCE</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <folder path="0/src/drivers">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/drivers/human">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/learning</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/tgf</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>human_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/drivers/kilo2008">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/learning</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>kilo2008_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/drivers/networkhuman">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/modules/networking</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/learning</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>networkhuman_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/drivers/replay">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/learning</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>replay_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/drivers/simplix">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/learning</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/drivers/simplix</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simplix_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/drivers/usr">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/learning</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/drivers/usr</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>usr_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/ephemeris">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ephemeris_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/learning">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>learning_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/portability">
+        <ccTool>
+          <preprocessorList>
+            <Elem>portability_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/robottools">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>robottools_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/tgf">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>tgf_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/tgfclient">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>/usr/include/AL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>tgfclient_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/libs/tgfdata">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>tgfdata_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/main">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/tgfdata</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/graphic">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ssggraph_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/networking">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>src/modules/networking</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/math</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>networking_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/racing">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfdata</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/racing/genparoptv1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>genparoptv1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/racing/standardgame">
+        <ccTool>
+          <incDir>
+            <pElem>src/modules/networking</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>standardgame_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/simu/simuv2">
+        <ccTool>
+          <incDir>
+            <pElem>src/modules/simu/simuv2.1/SOLID-2.0/include</pElem>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/simu/simuv2.1">
+        <ccTool>
+          <incDir>
+            <pElem>src/modules/simu/simuv2.1/SOLID-2.0/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/simu/simuv3">
+        <ccTool>
+          <incDir>
+            <pElem>src/modules/simu/simuv2.1/SOLID-2.0/include</pElem>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv3_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/simu/simuv4">
+        <ccTool>
+          <incDir>
+            <pElem>src/modules/simu/simuv4/SOLID-2.0/include</pElem>
+            <pElem>src/modules/simu/simuv2.1/SOLID-2.0/include</pElem>
+            <pElem>.</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv4_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/sound">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>/usr/include/AL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>snddefault_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/telemetry">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>telemetryv1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/track">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>trackv1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/userinterface">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/userinterface/legacymenu">
+        <ccTool>
+          <incDir>
+            <pElem>src/modules/userinterface/legacymenu</pElem>
+            <pElem>src/modules/userinterface/legacymenu/mainscreens</pElem>
+            <pElem>src/modules/userinterface/legacymenu/confscreens</pElem>
+            <pElem>src/modules/userinterface/legacymenu/racescreens</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/tgfdata</pElem>
+            <pElem>src/modules/networking</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>legacymenu_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/modules/userinterface/textonly">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/tgfdata</pElem>
+            <pElem>src/modules/networking</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>textonly_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/tools">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/tools/accc">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/tools/menuview">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/tools/nfsperf">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/tools/trackgen">
+        <ccTool>
+          <incDir>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/robottools</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/tgfclient</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/portability</pElem>
+            <pElem>/usr/include/SDL</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/tools/xmlversion">
+        <ccTool>
+          <incDir>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/portability</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/drivers/human/human.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/cardata.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/kdriver.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/kilo2008.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/opponent.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/pit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/raceline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/spline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/strategy.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/kilo2008/util.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/networkhuman/networkhuman.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/replay/replay.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcarparam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcharacteristic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitclothoid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcollision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcommon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcommondata.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcubic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitcubicspline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitdriver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitfixcarparam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitlane.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitlanepoint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitlinalg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitlinreg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitmain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitopponent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitparabel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitparam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitpidctrl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitpit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitpitparam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitsection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitstrategy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitsysfoo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unittmpcarparam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unittrack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitvec2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/simplix/src/unitvec3d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/cardata.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/driver.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/mod.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/opponent.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/pit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/raceline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/spline.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/strategy.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/drivers/usr/src/usr.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/celestialbody.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/ephemeris.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/jupiter.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/mars.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/mercury.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/moonpos.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/neptune.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/saturn.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/star.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/stardata.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/uranus.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/ephemeris/venus.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/ANN.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/Distribution.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/List.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/MathFunctions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/ann_policy.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/policy.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/learning/string_utils.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/portability/portability.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/robottools/rthumandriver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/robottools/rtteammanager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/robottools/rttelem.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/robottools/rttimeanalysis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/robottools/rttrack.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/robottools/rtutil.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/application.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/directory.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/eventloop.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/file.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/filesetup.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/formula.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/hash.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/legacymodule.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/linuxspec.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/modinfo.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/module.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/os.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/params.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/profiler.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/schedulespy.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/tgf.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgf/trace.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/control.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/glfeatures.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/gui.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiapplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guibutton.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guicheckbox.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guicombobox.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiedit.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guieventloop.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guifont.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guihelp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiimage.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guilabel.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guimenu.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiobject.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiprogresbar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiscreen.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiscrollbar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guiscrollist.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/guitexture.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/musicplayer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/oggsoundstream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/openalmusicplayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/soundstream.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfclient/tgfclient.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfdata/cars.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfdata/drivers.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfdata/race.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfdata/racemanagers.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfdata/tgfdata.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/libs/tgfdata/tracks.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/main/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/modules/graphic/ssggraph/grCloudLayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grMoon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grMoonpos.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grSky.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grSkyDome.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grSphere.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grStars.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grSun.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grbackground.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grboard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grcam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grcar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grcarlight.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grloadac.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grmain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grmultitexstate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grrain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grscene.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grscreen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grshadow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grsimplestate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grskidmarks.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grsmoke.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grtexture.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grtracklight.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grtrackmap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/grvtxtable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/graphic/ssggraph/ssggraph.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/networking/client.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/networking/network.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/networking/pack.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/networking/robotxml.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/networking/server.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/genetic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/genparoptv1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/racecars.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/raceinit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/racemain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/racemessage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/raceresults.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/racesituation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/racestate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/racetrack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/raceupdate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/genparoptv1/raceutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racecareer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racecars.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/raceinit.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racemain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racemessage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racenetwork.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/raceresults.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racesimusimu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racesituation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racestate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/racetrack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/raceupdate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/raceutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/racing/standardgame/standardgame.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/BBoxTree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Box.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/C-api.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Complex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Cone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Convex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Cylinder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Endpoint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Object.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Polygon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Polyhedron.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/RespTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Response.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Simplex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Sphere.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/SOLID-2.0/src/Transform.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/aero.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/axle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/brake.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/car.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/categories.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/collide.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/differential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/engine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/simu.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/simuv21.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/steer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/susp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/transmission.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2.1/wheel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/libs/portability</pElem>
+            <pElem>src/interfaces</pElem>
+            <pElem>src/libs/math</pElem>
+            <pElem>src/libs/tgf</pElem>
+            <pElem>src/libs/robottools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>simuv2_1_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/aero.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/axle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/brake.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/car.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/categories.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/collide.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/differential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/engine.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/simu.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/simuv20.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/steer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/susp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/transmission.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv2/wheel.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/SimulationOptions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/aero.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/axle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/brake.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/car.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/categories.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/collide.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/differential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/engine.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/simu.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/simuv30.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/steer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/susp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/transmission.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv3/wheel.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/aero.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/axle.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/brake.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/car.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/categories.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/collide.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/differential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/engine.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/simu.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/simuv4.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/steer.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/susp.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/transmission.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/simu/simuv4/wheel.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/CarSoundData.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/OpenalSound.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/OpenalSoundInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/PlibSound.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/PlibSoundInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/Sound.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/SoundInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/grsound.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/sound/snddefault/snddefault.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/telemetry/telemetryv1/telemetry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/telemetry/telemetryv1/telemetryitf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/track/trackv1/track.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/track/trackv1/track3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/track/trackv1/track4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/track/trackv1/trackitf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/track/trackv1/trackutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/advancedgraphconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/aiconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/carsettingsmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/controlconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/displayconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/graphconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/hostsettingsmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/joy2butconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/joystickconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/monitorconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/mouseconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/openglconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/playerconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/simuconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/confscreens/soundconfig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/legacymenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/mainscreens/creditsmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/mainscreens/exitmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/mainscreens/mainmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/mainscreens/optionsmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/mainscreens/splash.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/driverselect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/fileselect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/garagemenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/networkingmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/raceconfigstate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/raceloadingmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/racemanmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/racenexteventmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/raceparamsmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/racepitmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/raceresultsmenus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/racerunningmenus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/raceselectmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/racestartmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/racestopmenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/legacymenu/racescreens/trackselect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modules/userinterface/textonly/textonly.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/tools/accc/ac3dgroup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/accc/ac3dload.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/accc/mainaccc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/menuview/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/menuview/previewmenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/nfs2ac/mainnfs2ac.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/nfsperf/mainnfsperf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/ac3d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/easymesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/elevation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/relief.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/track.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/trackgen/util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tools/xmlversion/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
