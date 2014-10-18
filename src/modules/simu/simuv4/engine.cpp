@@ -48,7 +48,7 @@ SimEngineConfig(tCar *car)
 	car->engine.Tq_response = 0.0f;
 	car->engine.I_joint = car->engine.I;
 	car->engine.timeInLimiter = 0.0f;
-
+        
 	sprintf(idx, "%s/%s", SECT_ENGINE, ARR_DATAPTS);
 	car->engine.curve.nbPts = GfParmGetEltNb(hdle, idx);
 	edesc = (struct tEdesc*)malloc((car->engine.curve.nbPts + 1) * sizeof(struct tEdesc));
@@ -194,86 +194,86 @@ SimEngineUpdateTq(tCar *car)
 tdble
 SimEngineUpdateRpm(tCar *car, tdble axleRpm)
 {
-tTransmission *trans = &(car->transmission);
-tClutch *clutch = &(trans->clutch);
-tEngine *engine = &(car->engine);
-float freerads;
-float transfer;
+    tTransmission *trans = &(car->transmission);
+    tClutch *clutch = &(trans->clutch);
+    tEngine *engine = &(car->engine);
+    float freerads;
+    float transfer;
 
 
-if (car->fuel <= 0.0) {
-engine->rads = 0;
-clutch->state = CLUTCH_APPLIED;
-clutch->transferValue = 0.0;
-return 0.0;
-}
-
-freerads = engine->rads;
-freerads += engine->Tq / engine->I * SimDeltaTime;
-{
-    tdble dp = engine->pressure;
-    engine->pressure = engine->pressure*0.9f + 0.1f*engine->Tq;
-    dp = (0.001f*fabs(engine->pressure - dp));
-    dp = fabs(dp);
-    tdble rth = urandom();
-    if (dp > rth) {
-        engine->exhaust_pressure += rth;
+    if (car->fuel <= 0.0) {
+        engine->rads = 0;
+        clutch->state = CLUTCH_APPLIED;
+        clutch->transferValue = 0.0;
+        return 0.0;
     }
-    engine->exhaust_pressure *= 0.9f;
-    car->carElt->priv.smoke += 5.0f*engine->exhaust_pressure;
-    car->carElt->priv.smoke *= 0.99f;
-}
+
+    freerads = engine->rads;
+    freerads += engine->Tq / engine->I * SimDeltaTime;
+    
+    {
+        tdble dp = engine->pressure;
+        engine->pressure = engine->pressure*0.9f + 0.1f*engine->Tq;
+        dp = (0.001f*fabs(engine->pressure - dp));
+        dp = fabs(dp);
+        tdble rth = urandom();
+        if (dp > rth) {
+            engine->exhaust_pressure += rth;
+        }
+        engine->exhaust_pressure *= 0.9f;
+        car->carElt->priv.smoke += 5.0f*engine->exhaust_pressure;
+        car->carElt->priv.smoke *= 0.99f;
+    }
 
 
-// This is a method for the joint torque that the engine experiences
-// to be changed smoothly and not instantaneously.
-// The closest alpha is to 1, the faster the transition is.
- transfer = 0.0;
- float ttq = 0.0;
- float I_response = trans->differential[0].feedBack.I + trans->differential[1].feedBack.I;
- engine->Tq_response = 0.0;
- tdble dI = fabs(trans->curI - engine->I_joint);
- tdble sdI = dI;
+    // This is a method for the joint torque that the engine experiences
+    // to be changed smoothly and not instantaneously.
+    // The closest alpha is to 1, the faster the transition is.
+     transfer = 0.0;
+     float ttq = 0.0;
+     float I_response = trans->differential[0].feedBack.I + trans->differential[1].feedBack.I;
+     engine->Tq_response = 0.0;
+     tdble dI = fabs(trans->curI - engine->I_joint);
+     tdble sdI = dI;
 
- // limit the difference to avoid model instability
- if (sdI>1.0) {
-     sdI = 1.0;
- }
-
- float alpha = 0.1f; // transition coefficient
- engine->I_joint = (tdble) (engine->I_joint*(1.0-alpha) +  alpha*trans->curI);
-
- // only use these values when the clutch is engaged or the gear
- // has changed.
- if ((clutch->transferValue > 0.01) && (trans->gearbox.gear)) {
-
-     transfer = clutch->transferValue * clutch->transferValue * clutch->transferValue * clutch->transferValue;
-
-     ttq = (float) (dI* tanh(0.01*(axleRpm * trans->curOverallRatio * transfer + freerads * (1.0-transfer) -engine->rads))*100.0);
-     engine->rads = (tdble) ((1.0-sdI) * (axleRpm * trans->curOverallRatio * transfer + freerads * (1.0-transfer)) + sdI *(engine->rads + ((ttq)*SimDeltaTime)/(engine->I)));
-     if (engine->rads < 0.0) {
-         engine->rads = 0;
-         engine->Tq = 0.0;
+     // limit the difference to avoid model instability
+     if (sdI>1.0) {
+         sdI = 1.0;
      }
- } else {
-     engine->rads = freerads;
- }
- if (engine->rads < engine->tickover) {
-     engine->rads = engine->tickover;
-     engine->Tq = 0.0;
- } else if (engine->rads > engine->revsMax) {
-     engine->rads = engine->revsMax;
-   if ( (clutch->transferValue > 0.01) &&
-        ((trans->curOverallRatio > 0.01) || (trans->curOverallRatio < -0.01)) )
-       return engine->revsMax / trans->curOverallRatio;
-   else {return 0.0;}
- }
 
- if ((trans->curOverallRatio!=0.0) && (I_response > 0)) {
-     return axleRpm - sdI * ttq * trans->curOverallRatio   * SimDeltaTime / ( I_response);
- } else {
-     return 0.0;
- }
+     float alpha = 0.1f; // transition coefficient
+     engine->I_joint = (tdble) (engine->I_joint*(1.0-alpha) +  alpha*trans->curI);
+
+     // only use these values when the clutch is engaged or the gear
+     // has changed.
+     if ((clutch->transferValue > 0.01) && (trans->gearbox.gear)) {
+
+         transfer = clutch->transferValue * clutch->transferValue * clutch->transferValue * clutch->transferValue;
+
+         ttq = (float) (dI* tanh(0.01*(axleRpm * trans->curOverallRatio * transfer + freerads * (1.0-transfer) -engine->rads))*100.0);
+         engine->rads = (tdble) ((1.0-sdI) * (axleRpm * trans->curOverallRatio * transfer + freerads * (1.0-transfer)) + sdI *(engine->rads + ((ttq)*SimDeltaTime)/(engine->I)));
+         if (engine->rads < 0.0) {
+             engine->rads = 0;
+             engine->Tq = 0.0;
+         }
+     } else {
+         engine->rads = freerads;
+     }
+     if (engine->rads < engine->tickover) {
+         engine->rads = engine->tickover;
+         engine->Tq = 0.0;
+     } else if (engine->rads > engine->revsMax) {
+         engine->rads = engine->revsMax;
+        if ( (clutch->transferValue > 0.01) && ((trans->curOverallRatio > 0.01) || (trans->curOverallRatio < -0.01)) )
+            return engine->revsMax / trans->curOverallRatio;
+        else {return 0.0;}
+     }
+
+     if ((trans->curOverallRatio!=0.0) && (I_response > 0)) {
+        return axleRpm - sdI * ttq * trans->curOverallRatio   * SimDeltaTime / ( I_response);
+     } else {
+        return 0.0;
+     }
 }
 
 void

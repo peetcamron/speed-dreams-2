@@ -7,7 +7,24 @@
         <activeConfTypeElem>0</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="Summer"/>
+        <group name="Summer">
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/engine.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/interfaces/car.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/engine.cpp</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/axle.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/wheel.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/carstruct.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/libs/tgf/tgf.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/axle.cpp</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/transmission.cpp</file>
+            <file>file:/home/peter/speed-dreams-2/data/cars/models/trb1-boxer-trbrs/trb1-boxer-trbrs.xml</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/wheel.cpp</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/transmission.h</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/differential.cpp</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/car.cpp</file>
+            <file>file:/home/peter/speed-dreams-2/src/modules/simu/simuv4/differential.h</file>
+        </group>
     </open-files>
 </project-private>
