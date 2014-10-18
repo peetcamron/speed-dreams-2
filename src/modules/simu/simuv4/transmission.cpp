@@ -280,6 +280,18 @@ SimTransmissionUpdate(tCar *car)
     tDifferential	*differential, *differential0, *differential1;
     tdble		transfer = MIN(clutch->transferValue * 3.0f, 1.0f);
     
+    /*
+    tdble spinPerc = car->wheel[0].feedBack.spinVel / 200.0f;
+
+    spinPerc = (1.0f - (car->ctrl->accelCmd * 0.3f)) * spinPerc;
+
+    trans->curOverallRatio = 20.0f - ((20.0f - 3.0f) * spinPerc);
+
+    printf("Overall Ratio: %f, spin: %f \n", trans->curOverallRatio, car->wheel[0].feedBack.spinVel);
+    */
+    
+    //printf("Current Gear: %d, Overall Ratio: %f \n", gearbox->gear, trans->overallRatio[gearbox->gear+1]);
+    
     tdble               transOutputTq = (car->engine.Tq_response + car->engine.Tq) * trans->curOverallRatio * transfer * trans->gearEff[gearbox->gear+1];
     
     //transOutputTq = transOutputTq * 6;
